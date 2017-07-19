@@ -29,7 +29,13 @@ ul {
   margin-bottom: 30px;
   li {
     list-style-position: outside;
+    list-style-type: disc;
   }
+}
+
+li ol,
+li ul {
+  margin-bottom: 0;
 }
 p {
   margin-bottom: 30px;

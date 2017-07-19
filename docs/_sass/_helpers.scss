@@ -48,7 +48,6 @@
 
 .sub-note {
     display: block;
-    font-weight: 600;
     font-size: .8em;
     margin-top: 2px;
 }
@@ -108,5 +107,7 @@
 }
 
 .text-warning {
-  color: $orange;
+  background-color: $orange;
+  color: $white;
+  padding: 10px 15px;
 }
