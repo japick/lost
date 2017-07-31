@@ -9,3 +9,36 @@
     margin-top: 25px;
   }
 }
+
+// faqs
+.faq {
+	display: block;
+	padding: 10px 0;
+	overflow: hidden;
+	border-bottom: 1px solid $light-grey;
+}
+
+// accordion
+.accordion__toggle {
+	cursor: pointer;
+	margin-bottom: 0;
+	font-size: 1.4em;
+}
+
+.accordion__content {
+	display: none;
+}
+
+.accordion__content.default {
+	display: block;
+}
+
+// top bar
+.top-bar {
+	line-height: 80px;
+	height: 100%;
+}
+
+.top-bar--grey {
+	background-color: $very-light-grey;
+}

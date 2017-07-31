@@ -8,6 +8,7 @@
     "url": "https://github.com/peterramsing/lost.git"
   },
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "object-assign": "^4.1.0",
     "postcss": "^6.0.6"
   },

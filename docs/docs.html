@@ -15,13 +15,24 @@ title: "Documentation - LostGrid"
 
     {% include docs/variables.html %}
 
-    {% capture gotchas %}{% include docs/gotchas.md %}{% endcapture %}
-    {{ gotchas | markdownify }}
-
     {% capture browser-support %}{% include docs/browser-support.md %}{% endcapture %}
     {{ browser-support | markdownify }}
 
-    {% include docs/faq.html %}
+    <div class="section--content" id="faqs">
+        <h2 class="h1">FAQs</h2>
+        <form action="" id="faq-form">
+            <div>
+                <label for="question">Question</label>
+                <input type="text" name="question" id="faq-question" required>
+            </div>
+            <div>
+                <label for="answer">Answer</label>
+                <textarea name="answer" id="faq-answer" required></textarea>
+            </div>
+            <input type="submit">
+        </form>
+        <ul class="[ accordion ] [ list--bare ]" id="faq-list"></ul>
+   </div>
 
     {% capture thanks %}{% include docs/thanks.md %}{% endcapture %}
     {{ thanks | markdownify }}
